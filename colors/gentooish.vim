@@ -48,7 +48,6 @@ if has('gui_running')
     hi Comment        gui=NONE   guifg=#666666   guibg=NONE
     hi Constant       gui=NONE   guifg=#b8bb00   guibg=NONE
     hi Boolean        gui=NONE   guifg=#00ff00   guibg=NONE
-    hi String         gui=NONE   guifg=#5dff9e   guibg=#0f291a
     hi Error          gui=NONE   guifg=#990000   guibg=#000000
     hi Identifier     gui=NONE   guifg=#4cbbd1   guibg=NONE
     hi Ignore         gui=NONE   guifg=#555555
@@ -130,7 +129,6 @@ else
     hi Ignore         ctermfg=240
     hi Error          term=reverse ctermfg=88 ctermbg=16
     hi Todo           term=standout ctermfg=252 ctermbg=95
-    hi String         ctermfg=85 ctermbg=16
     hi Number         ctermfg=179
     hi Boolean        ctermfg=46
     hi Special        term=bold ctermfg=222
@@ -142,7 +140,6 @@ else
     hi Ignore         ctermfg=240
     hi Error          term=reverse ctermfg=88 ctermbg=16
     hi Todo           term=standout ctermfg=252 ctermbg=95
-    hi String         ctermfg=85 ctermbg=16
     hi Number         ctermfg=179
     hi Boolean        ctermfg=46
     hi User1          cterm=bold ctermfg=246 ctermbg=236
